@@ -1,0 +1,323 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Raleway;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2{
+	text-align: left;
+}
+
+h3{
+	text-align: left;
+}
+
+h4{
+	text-align: left;
+}
+
+h5{
+	text-align: left;
+}
+
+h1{
+	margin-top: 0;
+}
+
+.navbar{
+	/*background-color: rgba(101, 131, 180, 0.7);*/
+	background-color: #1C86EE;
+	padding-left: 140px;
+	padding-right: 0px;
+	margin: 0;
+	position:fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.navbar a:hover{
+	background-color: rgba(72, 114, 181, 0.9);
+}
+
+#logo{
+	
+	padding: 0;
+	text-align: center;
+}
+
+#left{
+	float: left;
+	text-decoration: none;
+	padding: 20px;
+	/*display: block;*/
+	color: white;
+	font-family: Raleway;
+	font-size: 25px;
+	/*margin-top: 0;*/
+}
+
+#nav{
+	float: left;
+	padding-left: 120px;
+	text-align: center;
+	margin-right: 20px;
+	height: 69px;
+}
+
+#navlink{
+	float: right;
+	padding: 20px;
+	padding-top: 20px;
+	text-decoration: none;
+	color: white;
+
+	font-family: Raleway;
+	font-size: 25px;
+}
+
+#FASA{
+	background: url('pics/board/board.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 600px;
+	margin: 0;
+	padding: 200px 0 260px 0;
+	background-size: cover;
+}
+
+#description{
+	background-color: #f2f2f2;
+	color: #333333;
+	margin: 0 auto; 
+	overflow: hidden;
+	display: table;
+	font-family: Raleway;
+}
+
+.preback{
+	font-family: Raleway;
+	background-color: #1C86EE;
+	color: white;
+	height: 450px;
+	padding-top: 57px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.title{
+	padding-top: 30px;
+	padding-left: 50px;
+	font-family: Raleway;
+}
+
+.desc{
+	padding-left: 50px;
+	max-width: 80%;
+	font-size: 20px;
+	font-family: Raleway;
+}
+
+#header_one{
+	font-size: 80px;
+}
+
+/*End of header and preback section*/
+
+
+
+.officers{
+/*	margin-left: auto;
+	margin-right: auto;
+	border: 1px;*/
+}
+
+#tbl{
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 5px solid black;*/
+	padding: 10px;
+	font-family: Raleway;
+	/*border-spacing: 15px;*/
+	
+}
+
+.row{
+	float: left;
+	margin-left: 10px;
+}
+
+
+.pic{
+	padding: 0;
+	/*margin: 0;*/
+	margin-right: 10px;
+	width: 250px;
+	height: 200px;
+	/*background-size: 50% 0 no-repeat;*/
+	background-size: cover;
+}
+
+.textPrimary{
+	/*border-spacing: 0;*/
+	color: white;
+	width: 250px;
+	height: 200px;
+	text-align: center;
+	/*-webkit-transition: width 2s;
+	transition: width 2s;*/
+}
+
+
+.text{
+	/*border-spacing: 0;*/
+	color: white;
+	width: 250px;
+	height: 200px;
+	-webkit-transition: width .5s;
+	transition: width .5s;
+	background-color: #FFA319;
+	/*max-width: 50%;*/
+	padding: 10px;
+	margin: 0;
+}
+
+.textPrimary{
+	background-color: #5CADFF;
+	text-align: left;
+	font-size: 18px;
+	padding-left: 7px;
+}
+
+.text .second{
+	display: none;
+}
+
+.text:hover .first{
+	display: none;
+}
+
+.text:hover{
+	width: 550px;
+}
+
+.text:hover .second{
+	display: inline;
+}
+
+#one{
+	background-image: url('pics/board/josephine.jpg');
+}
+
+#two{
+	background-image: url('pics/board/dimpy.jpg');
+}
+
+#three{
+	background-image: url('pics/board/delaney.jpg');
+}
+
+#four{
+	background-image: url('pics/board/kristy.jpg');
+}
+
+#five{
+	background: url('pics/board/gonzales.jpg');
+}
+
+#six{
+	background: url('pics/board/soumi.jpg');
+}
+
+#seven{
+	background: url('pics/board/roxanne.jpg');
+}
+
+#eight{
+	background: url('pics/board/trini.jpg')
+}
+
+#nine{
+	background: url('pics/board/gamiao.jpg');
+}
+
+#ten{
+	background: url('pics/board/jc.jpg');
+}
+
+#eleven{
+	background: url('pics/board/kathleen.jpg');
+}
+
+#twelve{
+	background: url('pics/board/neek.jpg');
+}
+
+#thirteen{
+	background: url('pics/board/katalina.jpg');
+}
+
+/*FOOTER*/
+footer{
+	width: 100%;
+	position: absolute;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #BE1E2D;
+	/*display: block;*/
+	font-family: Raleway;
+
+}
+
+.footer li{
+	list-style-type: none;
+}
+
+.col2{
+	/*float: center;*/
+	/*margin-left: 300px;
+	padding-left: 500px;*/
+	/*display: block;*/
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.conLinks{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+
+.conLinks:hover{
+	color: white;
+}
+
+#contact{
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+}
+
+#contact li{
+	display: inline;
+}
+
+/*.transit{
+	visibility: invisible;
+	transition: visibility 3s ease;
+}
+
+.transit{
+	visibility: visible;
+}*/
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Raleway'),url(//brick.a.ssl.fastly.net/fonts/raleway/300.woff) format('woff');
+}

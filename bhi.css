@@ -1,0 +1,251 @@
+/*
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(240,240,240);
+	color: black;
+	width: 180px;
+	padding: 0px;
+	z-index: 100;
+}
+
+#logo{
+	margin: 10px 0 20px 5px;
+	width: 79px;
+	height: 43px;
+}
+
+#menu-icon{
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(favicon.png) center;
+}
+
+a:hover#menu-icon{
+	border-radius: 4px 4px 0 0;
+}
+
+header ul{
+	list-style-type: none;
+}
+
+header ul li{
+	border-bottom: 1px solid gray;
+	margin: 0;
+	padding: 10px 0 10px 8px;
+}
+
+header ul li img{
+	width: 18px;
+	height: 18px;
+	padding: 2px 5px 0 0;
+}
+
+header ul li:hover{
+	background-color: rgb(150,150,150);
+	cursor: pointer;
+}
+
+.last_list{
+	border-bottom: 0;
+}
+
+
+#content{
+	margin: 0 0 50px 182px;
+	padding-bottom: 300px;
+	color: white;
+	background-color: rgb(1, 87, 129);
+}
+
+#login{
+	color: white;
+}
+
+#login h3{
+	display: inline;
+	float: right;
+	padding: 2px 8px 0 0;
+}
+
+.login a{
+	display: inline;
+	color: white;
+	font-size: 20px;
+	transition: all .15s ease-in-out;
+}
+
+.login a:hover{
+	color: black;
+}
+
+#main{
+	margin: 0px 0 10px 30px;
+}
+
+#main h1{
+	padding: 10px 0 0 0;
+	font-size: 40px;
+}
+
+.newsTable{
+	padding: 10px 0 0 20px;
+}
+
+.newsTable ul li {
+	padding: 5px;
+}
+
+.newsTable ul li a:link, .newsTable ul li a:visited{
+	color: white;
+}
+.newsTable ul li a:hover{
+	color: red;
+}
+
+/*Tiles Code*/
+.wrapper{
+	margin-top: 50px;
+	/*max-width: 620px;*/
+	height: auto;
+}
+
+.box{
+	display: inline-block;
+	position: relative;
+	width: 180px;
+	height: 180px;
+	background: #FCC;
+	z-index: 0;
+	margin: 20px 2px 2px 2px;
+	transition: all .15s ease-in-out;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.box a{
+	
+	left: 0;
+	
+	color: yellow;
+	vertical-align: middle;
+}
+
+
+.box h3{
+	font-size: 24px;
+}
+
+.box:hover{
+	background: white;
+	z-index: 100;
+	transform: scale(1.1,1.1);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+
+#test{
+	background: black;
+	width: 100%;
+	height: 100%;
+}
+
+.box p{
+	text-align: left;
+	padding: 0 0 0 5px;
+	font-size: 14px;
+	display: inline;
+}
+
+/* List Content */
+.divider{
+	margin: 0 auto 70px;
+	padding: 10px 0 0 30px;
+}
+
+.divider h1{
+	display: inline;
+	font-size: 40px;
+/*	border-style: inset;
+	border-color: rgb(0,255,255);*/
+}
+
+.divider h3{
+	margin: 3px 0;
+	color: rgb(50, 200, 250);
+	font-size: 30px;
+}
+
+.divider h5{
+	margin: 10px 0;
+}
+
+.divider h5, .divider h6{
+	color: black;
+	font-size: 20px;
+}
+
+.divider h6{
+	margin: 0 0 5px 0;
+}
+
+.inner{
+	padding: 10px 0 0 0;
+}
+
+.inner ul  li{
+	margin: 20px 0;
+}
+
+.hidden{
+	display: none;
+}
+
+.hidden a{
+	display: inline-block;
+	font-weight: bold;
+	background-color: rgb(3,126,186);
+	width: 120px;
+	text-align: center;
+	padding: 3px 0;
+	letter-spacing: 1.5px;
+}
+
+.hidden a:hover{
+	background-color: rgb(10,140,240);
+}
+
+
+
+/*End of tiles code*/
+footer{
+	color: black;
+	width: 100%;
+	background-color: #ddd;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Raleway'),url(//brick.a.ssl.fastly.net/fonts/raleway/300.woff) format('woff');
+}

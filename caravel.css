@@ -1,0 +1,410 @@
+/* General Formatting */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+
+a{
+	text-decoration: none;
+	color: gray;
+}
+
+/* Header */
+header{
+	/*position: fixed;
+	z-index: 100;*/
+	display: block;
+	background-color: white;
+	color
+	top: 0;
+	height: 71px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.header_container{
+	margin: 0 10px;
+}
+
+header img{
+	float: left;
+	display: block;
+	position: relative;
+	width: 200px;
+	height: auto;
+	transition: opacity .7s ease-in-out;
+}
+
+header img:hover{
+	opacity: .6;
+}
+
+header ul{
+	display: inline;
+	float: right;
+	top: 0;
+	color: gray;
+	margin: 27px 0 0 0;
+	list-style-type: none;
+}
+
+header ul li{
+	display: inline;
+}
+
+header ul li a{
+	transition: all 1s ease-in-out;
+	padding: 25px 20px;
+	letter-spacing: .1em;
+}
+
+header ul li a:hover{
+	color: yellow;
+	background-color: rgb(0, 38, 100);
+}
+
+/*End of Header*/
+#entire{
+	/*background-color: rgb(139, 196, 237);*/
+	background-color: rgb(0, 38, 100);
+}
+/* RANDOM SHIT*/
+.first{
+	/* Padding to get entire image displayed*/
+	padding: 70px 0 300px;
+	width: 100%;
+	height: 200px;
+	color: white;
+	text-align: center;
+	background-image: url('pics/home_cover2.jpg');
+	background-size: cover;
+}
+
+
+.image_overlay{
+	text-align: center;
+	padding: 50px 0 450px 0;
+	background-color: rgba(250, 250, 250, 0.5);
+}
+
+.image_overlay h1{
+	font-size: 80px;
+}
+
+.image_overlay hr{
+	border: 0;
+	width: 50px;
+	margin: 0 auto 10px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+/* END OF RANDOM SHIT*/
+
+.content{
+	padding: 70px 0 0 0;
+	position: relative;
+	color: black;
+}
+
+
+
+.image_overlay h1, .image_overlay h2, .image_overlay h3, .image_overlay h4, .image_overlay h5, .image_overlay h6{
+	position: absolute;
+	text-align: center;
+}
+
+.image_overlay h1{
+	top: 120px;
+	left: 530px;
+	font-size: 70px;
+	color: rgb(0, 38, 100);
+}
+
+.image_overlay h2{
+	top: 250px;
+	left: -45px;
+	padding: 0 0 0 570px;
+	font-size: 100px;
+	transition: all 1s ease-in-out;
+	color: yellow;
+}
+
+.image_overlay h2:hover{
+	letter-spacing: .5em;
+	color: red;
+}
+
+.image_overlay h4{
+	top: 170px;
+	left: 870px;
+	color: rgb(0, 38, 100);
+}
+
+.image_overlay h3{
+	top: 200px;
+	left: 535px;
+	color: rgb(0, 38, 100);
+}
+
+.image_overlay h6{
+	top: 360px;
+	left: 530px;
+	color: rgb(0, 38, 100);
+	font-size: 40px;
+}
+
+.image_overlay h5{
+	top: 420px;
+	left: 530px;
+	color: yellow;	
+	font-size: 50px;
+}
+/* Media query*/
+
+@media (max-width: 480px){
+	#general_description{
+		padding: 0 0 0 25px;
+		letter-spacing: .1em;	
+	}
+
+	#general_description p{
+		padding: 0px 0 0 0;
+		margin: 15px 100px 50px;
+		color: white;
+	}
+}
+
+/* End of media queries*/
+
+#second_content{
+	position: relative;
+	color: blue;
+	background-color: rgba(0, 38, 100, 0.9);
+}
+
+#general_description{
+	margin: 0px 0 0 0;
+	padding: 0 0 0 50px;
+	line-height: 2;
+	letter-spacing: .2em;
+}
+
+#general_description h1{
+	color: yellow;
+	font-size: 45px;
+	padding: 0 0 7px 0;
+	text-align: center;
+}
+
+#general_description hr{
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	/*border-bottom: 1px solid red;*/
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#general_description p{
+	padding: 0px 0 0 0;
+	margin: 15px 150px 80px;
+	color: white;
+}
+
+#second_content img{
+	padding: 0;
+	width: 600px;
+	height: auto;
+	display: inline-block;
+}
+
+#first_pic{
+	margin-left: 60px;
+}
+
+
+#third_content{
+	position: relative;
+	background-color: #f2f2f2;
+	color: black;
+	/*padding: 50px 60px;*/
+	max-width: 100%;
+}
+
+#third_content h1{
+	max-width: 80%;
+	margin: 0 200px 10px;
+	padding: 50px 0;
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	line-height: 1.5;
+}
+
+#third_content h1 span{
+	color: red;
+}
+
+.row{
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.row ul li{
+	display: inline-block;
+	position: relative;
+	padding: 0 0 0 10px;
+}
+
+.row a{
+	display: inline-block;
+}
+
+.pic{
+	width: 580px;
+	height: 300px;
+	text-align: center;
+	float: left;
+}
+
+#dance_pic{
+	background: url(pics/dance.jpg);
+	background-size: cover;
+}
+
+#culture_pic{
+	background: url(pics/pcn.jpg);
+	background-size: cover;
+}
+
+#social_pic{
+	background: url(pics/happy.jpg);
+	background-size: cover;
+}
+
+#external_pic{
+	background: url(pics/external/cover_photo_external.jpg);
+	background-size: cover;
+}
+
+#service_pic{
+	background: url(pics/service.jpg);
+	background-size: cover;
+}
+
+#sports_pic{
+	background: url(pics/sports.jpg);
+	background-size: cover;
+}
+
+
+.caption{
+}
+
+
+.button{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	padding: 100px 0;
+	
+}
+
+.button button{
+	/*background-color: rgba(0,0,0,.1);*/
+	background-color: transparent;
+	color: white;
+	border-color: rgb(0, 38, 100);
+	line-height: 1.33;
+	letter-spacing: 8px;
+	border: 3px solid;
+	font-size: 22px;
+	padding: 10px 20px;
+	cursor: pointer;
+	text-align: center;
+	transition: .5s all ease-in-out;
+}
+
+.row ul li:hover .button button{
+	background-color: rgb(0, 38, 100);
+
+	color: yellow;
+	border: 3px solid yellow;
+}
+
+.row ul li:hover .caption{
+	color: yellow;
+}
+
+.button button:hover{
+	background-color: rgb(0, 38, 100);
+
+	color: yellow;
+	border: 3px solid transparent;
+}
+
+.last_content{
+	padding: 20px 0px;
+	text-align: center;
+	color: white;
+}
+/*
+.last_content p{
+	padding: 30px 0 0 0;
+}
+
+.footer_text{
+	max-width: 50%;
+	display: inline-block;
+}
+
+.sign_up{
+	display: inline-block;
+}*/
+
+
+.last_content hr{
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: 500px;
+	margin: 0 auto 10px;
+}
+
+.last_content h3{
+	padding: 10px;
+}
+
+.last_content button{
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	transition: .5s all ease-in-out;
+	background-color: rgb(0, 38, 100);
+	border: 2px solid white;
+	border-radius: 2px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.last_content button:hover{
+	background-color: black;
+	color: yellow;
+	border-color: black;
+	border-radius: 25px;
+}
+
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Raleway'),url(//brick.a.ssl.fastly.net/fonts/raleway/300.woff) format('woff');
+}

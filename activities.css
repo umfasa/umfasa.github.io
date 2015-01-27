@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+
+.navbar{
+	/*background-color: rgba(101, 131, 180, 0.7);*/
+	background-color: #1C86EE;
+	padding-left: 140px;
+	padding-right: 0px;
+	margin: 0;
+	position:fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.navbar a:hover{
+	background-color: rgba(72, 114, 181, 0.9);
+}
+
+#logo{
+	
+	padding: 0;
+	text-align: center;
+}
+
+#left{
+	float: left;
+	text-decoration: none;
+	padding: 20px;
+	/*display: block;*/
+	color: white;
+	font-family: Raleway;
+	font-size: 25px;
+	/*margin-top: 0;*/
+}
+
+#nav{
+	float: left;
+	padding-left: 120px;
+	text-align: center;
+	margin-right: 20px;
+	height: 69px;
+}
+
+#navlink{
+	float: right;
+	padding: 20px;
+	padding-top: 20px;
+	text-decoration: none;
+	color: white;
+
+	font-family: Raleway;
+	font-size: 25px;
+}
+
+#entire{
+	padding: 70px 20px 0 20px;
+	background-color: white;
+}
+
+#content{
+	height: 100%;
+	padding-left: 17px;
+}
+
+#block{	
+	display: inline-block;
+}
+
+#block li{
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 0 0 0;
+	background-color: #ffff4c;
+	text-align: center;
+	vertical-align: top;
+	height: 280px;
+	color: black;
+}
+
+#block li h2, #block li h3{
+	max-width: 300px;
+}
+
+.pic{
+	width: 250px;
+	height: 150px;
+	text-align: center;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Raleway'),url(//brick.a.ssl.fastly.net/fonts/raleway/300.woff) format('woff');
+}
