@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Raleway;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(0, 38, 100);
+}
+/* Header */
+header{
+	/*position: fixed;
+	z-index: 100;*/
+	display: block;
+	background-color: white;
+	color
+	top: 0;
+	height: 71px;
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+}
+
+.header_container{
+	margin: 0 10px;
+}
+
+header img{
+	float: left;
+	display: block;
+	position: relative;
+	width: 200px;
+	height: auto;
+	transition: opacity .7s ease-in-out;
+}
+
+header img:hover{
+	opacity: .6;
+}
+
+header ul{
+	display: inline;
+	float: right;
+	top: 0;
+	color: gray;
+	margin: 27px 0 0 0;
+	list-style-type: none;
+}
+
+header ul li{
+	display: inline;
+}
+
+header ul li a{
+	transition: all 1s ease-in-out;
+	padding: 25px 20px;
+	letter-spacing: .1em;
+}
+
+header ul li a:hover{
+	color: yellow;
+	background-color: rgb(0, 38, 100);
+}
+/*End of Header*/
+
+/* Footer */
+.last_content{
+	padding: 20px 0px;
+	text-align: center;
+	color: white;
+	background-color: rgb(0, 38, 100);
+}
+/*
+.last_content p{
+	padding: 30px 0 0 0;
+}
+
+.footer_text{
+	max-width: 50%;
+	display: inline-block;
+}
+
+.sign_up{
+	display: inline-block;
+}*/
+
+
+.last_content hr{
+	border: 0;
+	height: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	width: 500px;
+	margin: 0 auto 10px;
+}
+
+.last_content h3{
+	padding: 10px;
+}
+
+.last_content button{
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	transition: .5s all ease-in-out;
+	background-color: rgb(0, 38, 100);
+	border: 2px solid white;
+	border-radius: 2px;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.last_content button:hover{
+	background-color: black;
+	color: yellow;
+	border-color: black;
+	border-radius: 25px;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Raleway'),url(//brick.a.ssl.fastly.net/fonts/raleway/300.woff) format('woff');
+}
