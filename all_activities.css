@@ -31,6 +31,16 @@
 	background-size: cover;
 }
 
+#service{
+	background-image: url('pics/service/cover_photo_service.jpg');
+	background-size: cover;
+}
+
+#sports{
+	background-image: url('pics/sports/cover_photo_sports.jpg');
+	background-size: cover;	
+}
+
 .image_overlay{
 	text-align: center;
 	padding: 50px 0 0 0;
